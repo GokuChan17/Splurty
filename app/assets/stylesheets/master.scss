@@ -23,7 +23,7 @@
   cursor: pointer;
   transform: rotate(11deg);
   -ms-transform: rotate(11deg); /* IE 9 */
-  -webkit-transform: rotate(11deg); /* Opera, Chorme, and Safari */
+  -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
@@ -41,7 +41,7 @@
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'nobileregular', sans-serif;
-  font-weigth: bold;
+  font-weight: bold;
 }
 
 header {
@@ -54,10 +54,22 @@ hr {
 
 h1 {
   font-family: 'nobileregular', sans-serif;
-  font-weigth: bold;
+  font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
   font-family: 'nobilemedium_italic', sans-serif;
 }
+
+.next-quote {
+  color: #f84342;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-size: 20px;
+}
+
+.footer-blurb {
+  font-family:"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  }
