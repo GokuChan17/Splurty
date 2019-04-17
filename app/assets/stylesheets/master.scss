@@ -1,3 +1,4 @@
+
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
@@ -39,6 +40,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+  font-weigth: bold;
 }
 
 header {
@@ -47,4 +50,14 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'nobileregular', sans-serif;
+  font-weigth: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'nobilemedium_italic', sans-serif;
 }
