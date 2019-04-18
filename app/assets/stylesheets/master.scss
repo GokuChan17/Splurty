@@ -7,12 +7,13 @@
 }
 
 .circle {
+  padding-top: 10px;
   font-weight: bold;
   font-style: italic;
   position: relative;
   border-radius: 100%;
   background: #f84342;
-  border: 1px solid #F7F7F7;
+  border: 2px solid #F7F7F7;  
   width: 80px;
   height: 80px;
   margin: 10px 10px;
@@ -42,6 +43,7 @@
   border-bottom: 1px solid #dfdfdf;
   font-family: 'nobileregular', sans-serif;
   font-weight: bold;
+  margin-left: 15px;
 }
 
 header {
@@ -77,3 +79,15 @@ h2 {
   .logo:hover {
     text-decoration: none;
   }
+
+ #myimage {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
