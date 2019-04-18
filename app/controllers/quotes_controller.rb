@@ -3,9 +3,6 @@ class QuotesController < ApplicationController
     @quote = Quote.order("RANDOM()").first
   end
 
-  def new
-    @quote = Quote.new
-  end
 
 
   # The 'create' method sends saying and author parts to the database and saved
@@ -19,7 +16,7 @@ class QuotesController < ApplicationController
 
   def about
   end
-  
+
 
 
   private
